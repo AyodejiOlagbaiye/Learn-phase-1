@@ -16,27 +16,34 @@ body {
 
 .container {
     background-color: white;
-    padding: 20px 20px;
+    padding: 20px 40px;
+    width: 400px;
+    border-radius: 5px;
 }
 
 input {
-    padding: 10px 20px;
-    border: 1px solid grey;
-    /* width: 80%; */
+    padding: 20px 30px;
+    border: 1px solid lightgrey;
+    width: 85%;
 }
 
 h5 {
     color: black;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 40px;
+    font-weight: normal;
 }
 
 button {
     background-color: #88D098;
     color: white;
-    padding: 10px 20px;
+    font-size: medium;
+    font-weight: bold;
+    padding: 20px 30px;
     border: none;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .paragraphs {
@@ -44,6 +51,10 @@ button {
     margin-top: 20px;
 }
 
+#forgot {
+    text-align: center;
+    margin-top: 5px;
+}
 span {
     font-weight: lighter;
 }
